@@ -1,0 +1,17 @@
+.idea
+node_modules
+screenshots
+npm-debug.log
+local.log
+*.bundle.*
+coverage/
+/styleguide/
+build/
+.env
+yarn-error.log
+dist/
+.awcache/
+.jenkins
+env\.sh
+server.cer
+server.key

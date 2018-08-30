@@ -1,0 +1,51 @@
+{
+  "name": "portfolio_base-skeleton",
+  "version": "1.0.0",
+  "description": "Base skeleton for hobby page",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --display=errors-only --progress",
+    "start": "node src/server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antjernberg/portfolio_base-skeleton.git"
+  },
+  "keywords": [
+    "hobby"
+  ],
+  "author": "antjernberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antjernberg/portfolio_base-skeleton/issues"
+  },
+  "homepage": "https://github.com/antjernberg/portfolio_base-skeleton#readme",
+  "browserslist": [
+    "last 2 versions",
+    "> 5%"
+  ],
+  "dependencies": {
+    "cors": "^2.8.4",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "react": "^16.4.2",
+    "typescript": "^3.0.1",
+    "webpack": "^4.17.1",
+    "webpack-config-utils": "^2.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-typescript": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "css-loader": "^1.0.0",
+    "jest": "^23.5.0",
+    "mini-css-extract-plugin": "^0.4.2",
+    "path": "^0.12.7",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-loader": "^3.0.0",
+    "webpack-assets-manifest": "^3.0.2",
+    "webpack-cleanup-plugin": "^0.5.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
